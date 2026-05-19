@@ -3,23 +3,27 @@ import Image from "next/image";
 const screens = [
   {
     src: "/prototypes/dashboard.png",
-    label: "Landing Screen — Dashboard",
-    description: "The home screen field workers see when they open the app.",
+    label: "Sign In",
+    description:
+      "The login screen for Jobpac Mobile, supporting both standard Jobpac credentials and Single Sign On (SSO) via Trimble Construction.",
   },
   {
     src: "/prototypes/job-time-entry.png",
-    label: "Job Time Entry",
-    description: "Individual time entry screen for selecting a job and logging hours.",
+    label: "Home",
+    description:
+      "The home screen showing a summary of Individual Time and Crew Time for the current pay period, plus pending Approvals across Purchase Orders, Invoices, SC Agreements, Payments, and Variations.",
   },
   {
     src: "/prototypes/crew-timesheet.png",
-    label: "Crew Timesheet — Default Hours",
-    description: "Crew leads set default hours for the team before submitting.",
+    label: "Individual Time Entry",
+    description:
+      "The Individual Time Entry screen displaying pay period cards — Current, Next, Last, and Other — with days logged and hours tracked against each period.",
   },
   {
     src: "/prototypes/pte.png",
-    label: "Pre-Tax Entry (PTE)",
-    description: "Additional entry details for payroll and cost code allocation.",
+    label: "Crew Time Entry",
+    description:
+      "The Crew Time Entry screen showing pay periods with crew count, days, and total hours — used by crew leads to manage and submit time on behalf of their teams.",
   },
 ];
 
@@ -35,8 +39,8 @@ export default function Prototypes() {
             Key moments in the mobile experience
           </h2>
           <p className="text-slate-500 text-sm mt-4 max-w-lg">
-            A walkthrough of the core screens that field workers and crew leads
-            interact with daily.
+            A walkthrough of the core screens — from sign in through to
+            individual and crew time entry — that workers interact with daily.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
