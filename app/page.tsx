@@ -6,6 +6,7 @@ import FeaturesSection from "@/components/FeaturesSection";
 import HowItWorks from "@/components/HowItWorks";
 import Prototypes from "@/components/Prototypes";
 import Impact from "@/components/Impact";
+import Roadmap from "@/components/Roadmap";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <HowItWorks />
         <Prototypes />
         <Impact />
+        <Roadmap />
       </main>
       <footer className="bg-slate-950 py-8 border-t border-slate-800">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-2">
