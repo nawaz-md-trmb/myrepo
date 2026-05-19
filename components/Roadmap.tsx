@@ -28,17 +28,17 @@ const roadmapItems: { index: string; name: string; description: string; status: 
   },
   {
     index: "02",
-    name: "PO Requisition",
-    status: "planned",
-    description:
-      "Enable field workers and crew leads to raise purchase order requisitions directly from the job site, reducing delays in material procurement and keeping projects moving without office bottlenecks.",
-  },
-  {
-    index: "03",
     name: "Delivery Docket",
     status: "design-in-progress",
     description:
       "Capture and confirm material deliveries on-site with digital delivery dockets. Eliminates paper-based processes and ensures delivery records are tied to the correct job in the ERP in real time.",
+  },
+  {
+    index: "03",
+    name: "PO Requisition",
+    status: "planned",
+    description:
+      "Enable field workers and crew leads to raise purchase order requisitions directly from the job site, reducing delays in material procurement and keeping projects moving without office bottlenecks.",
   },
   {
     index: "04",
